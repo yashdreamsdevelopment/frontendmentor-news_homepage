@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+
+  <header id="header">
+    <nav id="nav" class="d-flex">
+      <div class="logo">
+        <img src="assets/images/logo.svg" alt="logo">
+      </div>
+
+      <ul class="menu d-flex" id="menu" data-toggle="off">
+        <li class="nav-item">
+          <a href="#" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">New</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Popular</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Trending</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Categories</a>
+        </li>
+      </ul>
+
+      <div id="mobile-nav-icon" data-value="closed">
+        <img src="assets/images/icon-menu.svg" class="menu-icon" data-type="menu-icon-open" alt="menu-icon">
+        <img src="assets/images/icon-menu-close.svg" class="menu-icon" data-type="menu-icon-close"
+          alt="menu-icon-close">
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container grid">
+      <div class="hero__img">
+        <picture>
+          <source media="(min-width: 1024px)" srcset="assets/images/image-web-3-desktop.jpg">
+          <img src="assets/images/image-web-3-mobile.jpg" alt="image-web-3-mobile" width="100%">
+        </picture>
+      </div>
+      <div class="hero__text">
+        <h1 class="main__title">
+          The Bright Future of Web 3.0?
+        </h1>
+      </div>
+      <div class="hero__desc">
+        <p> We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+          of the
+          people.
+          But is it really fulfilling its promise?</p>
+
+        <a href="#" class="button">Read more</a>
+      </div>
+      <div class="hero__new">
+        <h2 class="section-heading">New</h2>
+
+        <div class="new-items grid">
+          <article class="new-item">
+            <h3 class="new-item-title">Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </article>
+          <article class="new-item">
+            <h3 class="new-item-title">The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </article>
+          <article class="new-item">
+            <h3 class="new-item-title">Is VC Funding Drying Up?</h3>
+            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </article>
+        </div>
+      </div>
+      <div class="hero__features grid">
+        <article class="featured__item grid">
+          <img src="assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+
+          <div class="featured__item-content grid">
+            <h4 class="featured__item-content-heading">01</h4>
+            <h3 class="featured__item-content-title">Reviving Retro PCs</h3>
+            <p> What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </article>
+        <article class="featured__item grid">
+          <img src="assets/images/image-top-laptops.jpg" alt="image-retro-pcs">
+
+          <div class="featured__item-content grid">
+            <h4 class="featured__item-content-heading">02</h4>
+            <h3 class="featured__item-content-title">Top 10 Laptops of 2022
+            </h3>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </article>
+        <article class="featured__item grid">
+          <img src="assets/images/image-gaming-growth.jpg" alt="image-retro-pcs">
+
+          <div class="featured__item-content grid">
+            <h4 class="featured__item-content-heading">03</h4>
+            <h3 class="featured__item-content-title">The Growth of Gaming</h3>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+
+</body>
+
+</html>
